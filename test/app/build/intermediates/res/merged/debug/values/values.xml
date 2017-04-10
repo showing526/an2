@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="distance">
+        <item>校园内</item>
+        <item>校园外</item>
+    </string-array>
+    <string-array name="type">
+        <item>默认分类</item>
+        <item>勤工俭学</item>
+        <item>值班</item>
+        <item>辅导作业</item>
+    </string-array>
+    <string-array name="type_tab1">
+        <item>勤工俭学</item>
+        <item>值班</item>
+        <item>辅导作业</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">校内兼职</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="title_activity_tow">TowActivity</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

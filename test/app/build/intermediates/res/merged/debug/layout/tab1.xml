@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal"
+        tools:ignore="UselessLeaf" >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="#B3D9D9"
+            android:text="发布招聘"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="UselessLeaf" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_wn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dip"
+            >
+            <TextView
+                android:id="@+id/textview_wn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="职位名称:"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editText_wn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/linearLayout_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dip"
+        >
+        <TextView
+            android:id="@+id/textview_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系电话:"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editText_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dip"
+            >
+            <TextView
+                android:id="@+id/textview_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="职位类别:"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:id="@+id/spinner_type"
+                android:entries="@array/type_tab1"
+                tools:ignore="HardcodedText"
+                android:orientation="horizontal"
+                android:gravity="center"
+                 />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dip"
+                >
+                <TextView
+                    android:id="@+id/textview_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职位简介:"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/add_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:minLines="8"
+                    android:maxLines="10"
+                    android:scrollbars="vertical"
+                    android:background="@android:drawable/edit_text"
+                    ></EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dip"
+                >
+                <TextView
+                    android:id="@+id/textview_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赏金:"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/editText_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /-->
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg4"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#B3D9D9"
+        android:orientation="horizontal"
+        tools:ignore="UselessLeaf"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:layout_width="307dp"
+            android:layout_height="49dp"
+            android:gravity="center"
+            android:text="兼职详情"
+            tools:ignore="HardcodedText"
+            android:textColor="@android:color/background_light"
+            android:textSize="28dip" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="50dip"
+        tools:ignore="UselessLeaf" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="这是中间内容\n这是中间内容\n这是中间内容\n\n\n\n\n\n
+                                  这是中间内容\n这是中间内容\n这是中间内容\n\n\n\n\n\n
+                                  这是中间内容\n这是中间内容\n这是中间内容\n\n\n\n\n\n
+                                  这是中间内容\n这是中间内容\n这是中间内容\n\n\n\n\n\n
+                                  这是中间内容\n这是中间内容\n这是中间内容\n\n\n\n\n\n
+                                  这是中间内容\n这是中间内容\n这是中间内容\n\n\n\n\n\n"
+                tools:ignore="HardcodedText"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="-50dip"
+        android:background="#D1E9E9"
+        android:orientation="horizontal"
+        tools:ignore="PxUsage" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="我要报名"
+            tools:ignore="HardcodedText"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dip" />
+    </LinearLayout>
+
+</LinearLayout>

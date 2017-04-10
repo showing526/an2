@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type">
+        <item>默认分类</item>
+        <item>勤工俭学</item>
+        <item>值班</item>
+        <item>辅导作业</item>
+    </string-array>
+
+    <string-array name="distance">
+        <item>校园内</item>
+        <item>校园外</item>
+    </string-array>
+
+    <string-array name="type_tab1">
+        <item>勤工俭学</item>
+        <item>值班</item>
+        <item>辅导作业</item>
+    </string-array>
+</resources>

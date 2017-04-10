@@ -1,0 +1,10 @@
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$drawable$override.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$layout$override.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$dimen$override.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$id$override.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$style$override.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$string$override.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$menu$override.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$attr$override.class
+CHANGED,D:\android2\test\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\an\R$array$override.class

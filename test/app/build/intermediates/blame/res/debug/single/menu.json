@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\android2\\test\\app\\build\\intermediates\\res\\merged\\debug\\menu\\tow.xml",
+        "source": "D:\\android2\\test\\app\\src\\main\\res\\menu\\tow.xml"
+    },
+    {
+        "merged": "D:\\android2\\test\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\android2\\test\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\android2\\test\\app\\build\\intermediates\\res\\merged\\debug\\menu\\three.xml",
+        "source": "D:\\android2\\test\\app\\src\\main\\res\\menu\\three.xml"
+    }
+]

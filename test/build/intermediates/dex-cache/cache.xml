@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android2\test\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\android2\test\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-20.0.0_6069be12dcb39e55cf37be300be6e4983bbb8f7b.jar" />
+    </item>
+    <item
+        jar="C:\Users\sks\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\android2\test\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_f89e6e3ddb1b8cd50962d5884bf562bfe7df10b3.jar" />
+    </item>
+    <item
+        jar="D:\android2\test\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="31c5e3899c98537b3b24a27ae120d054d2205faa">
+        <dex dex="D:\android2\test\app\build\intermediates\pre-dexed\debug\instant-run_7526f5226dcbd118936d92779a22f36a4bf5b3c4.jar" />
+    </item>
+    <item
+        jar="D:\android2\test\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\android2\test\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_1fd25b7490b123b38acd87e193e662505a6ff273.jar" />
+    </item>
+    <item
+        jar="D:\android2\test\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="36516ecf4b4d456da4d2e54004ac5cef4822fae4">
+        <dex dex="D:\android2\test\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_7a6c9e45c548a75b84db345e059fcb3aaa09a606.jar" />
+    </item>
+
+</items>
